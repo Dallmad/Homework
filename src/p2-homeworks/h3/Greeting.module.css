@@ -1,0 +1,14 @@
+.overal {
+display: grid;
+    grid-template-columns: repeat(3,1fr) 7fr;
+}
+
+.error {
+    border: 1px solid red;
+}
+.text {
+    color: red;
+}
+.span {
+    margin-left: 20px;
+}

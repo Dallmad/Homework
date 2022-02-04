@@ -1,9 +1,4 @@
-.someClass {
 
-}
-.affairs {
-    margin-left: 10px;
-}
 .affairs .high {
     color: crimson;
 }
@@ -13,16 +8,3 @@
 .affairs .low {
      color: #a3c994;
  }
-.buttonsSet {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.active {
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: #ada4a4;
-}
-.buttonDelete {
-    margin-right: 20px;
-    margin-top: 5px;
-}

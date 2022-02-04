@@ -2,6 +2,7 @@ import React from 'react'
 import Affair from './Affair'
 import {AffairType, FilterType} from './HW2'
 import s from './Affairs.module.css'
+import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 
 type AffairsPropsType = {
     data: AffairType[]
@@ -27,10 +28,10 @@ function Affairs(props: AffairsPropsType) {
     return (
         <div >
             {mappedAffairs}
-            <button className={props.filter==='all' ? s.active : s.buttonsSet} onClick={setAll}>All</button>
-            <button className={props.filter==='high' ? s.active : s.buttonsSet} onClick={setHigh}>High</button>
-            <button className={props.filter==='middle' ? s.active : s.buttonsSet} onClick={setMiddle}>Middle</button>
-            <button className={props.filter==='low' ? s.active : s.buttonsSet} onClick={setLow}>Low</button>
+            <SuperButton onClick={setAll}>All</SuperButton>
+            <SuperButton onClick={setHigh}>High</SuperButton>
+            <SuperButton onClick={setMiddle}>Middle</SuperButton>
+            <SuperButton onClick={setLow}>Low</SuperButton>
         </div>
     )
 }
