@@ -1,4 +1,4 @@
-.overal {
+.overall {
 display: grid;
     grid-template-columns: repeat(3,1fr) 7fr;
 }

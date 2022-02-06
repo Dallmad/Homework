@@ -20,7 +20,7 @@ const Greeting: React.FC<GreetingPropsType> = (
 
     return (
         <div>
-            <div className={s.overal}>
+            <div className={s.overall}>
                 <SuperInputText
                     value={name}
                     onChange={setNameCallback}

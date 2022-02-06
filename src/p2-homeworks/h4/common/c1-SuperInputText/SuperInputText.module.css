@@ -9,8 +9,12 @@
 }
 
 .errorInput {
-    border: 2px solid #17b217;
-    background: #af0b0b;
+    width: 200px;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: 2px solid #bae7ba;
+    border-radius: 4px;
+    background: #f8b4b4;
 }
 
 .error {
