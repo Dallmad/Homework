@@ -9,11 +9,14 @@ type MessageDataType = {
 }
 function Message(props: MessageDataType) {
     return (
-        <div className={s.message}>
+        <div className={s.chat}>
             <img src={props.avatar}/>
-            <div className={s.textBackground}>{props.name}
-                <div className={s.text_message}>{props.message} </div>
-                <time className={s.time}>{props.time}</time>
+            <div className={s.message}
+            >{props.name}
+                <div className={s.text_message}
+                >{props.message} </div>
+                <time className={s.time}
+                >{props.time}</time>
             </div>
         </div>
     )
