@@ -1,4 +1,7 @@
-
+.someClass {
+    color: white;
+    margin-left: 20px;
+}
 .affairs .high {
     color: crimson;
 }

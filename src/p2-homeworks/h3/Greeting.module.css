@@ -2,7 +2,11 @@
 display: grid;
     grid-template-columns: repeat(3,1fr) 7fr;
 }
-
+.div {
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+}
 .error {
     border: 1px solid red;
 }
