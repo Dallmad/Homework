@@ -1,0 +1,9 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div {
+    color: white;
+    margin-left: 20px;
+}
