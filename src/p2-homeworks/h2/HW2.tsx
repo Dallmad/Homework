@@ -48,7 +48,7 @@ function HW2() {
                 filter={filter}
             />
 
-            <hr/>
+
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeAffairs/>*/}
 
