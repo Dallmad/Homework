@@ -9,8 +9,6 @@ function Header() {
             <NavLink to={PATH.PRE_JUNIOR} className={`${s.link} ${s.button}`} >Pre-Junior</NavLink>
             <NavLink to={PATH.JUNIOR} className={`${s.link} ${s.button}`}>Junior</NavLink>
             <NavLink to={PATH.JUNIOR2} className={`${s.link} ${s.button}`}>Junior+</NavLink>
-
-
         </div>
     )
 }

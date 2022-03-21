@@ -1,5 +1,5 @@
 import React from 'react'
-import {Route, Routes, useRoutes} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 import PreJunior from "./pages/PreJunior";
 import Error404 from "./pages/Error404";
 import {Junior} from "./pages/Junior";
