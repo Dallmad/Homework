@@ -39,7 +39,9 @@ function HW2() {
     const deleteAffairCallback = (_id: number) => setAffairs(deleteAffair(affairs, _id))
 
     return (
-        <div className={s.someClass}> Homework 2
+        <div className={s.someClass}>
+            <hr/>
+            Homework 2
 
             <Affairs
                 data={filteredAffairs}

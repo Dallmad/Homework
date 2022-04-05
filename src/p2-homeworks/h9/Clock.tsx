@@ -24,8 +24,8 @@ function Clock() {
         setShow(false)
     }
 
-    const stringTime = date.toTimeString()
-    const stringDate = date.toDateString()
+    const stringTime = date.toLocaleTimeString()
+    const stringDate = date.toLocaleDateString()
 
     return (
         <div>

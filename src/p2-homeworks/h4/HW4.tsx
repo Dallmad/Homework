@@ -21,7 +21,9 @@ function HW4() {
     const testOnChange = (e: ChangeEvent<HTMLInputElement>) => setChecked(e.currentTarget.checked)
 
     return (
-        <div className={s.div}> Homework 4
+        <div className={s.div}>
+            <hr/>
+            Homework 4
             <div className={s.column}>
                 <SuperInputText
                     value={text}
